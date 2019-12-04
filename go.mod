@@ -1,5 +1,7 @@
 module github.com/lucidhq/gorm
 
+replace github.com/jinzhu/gorm => github.com/lucidhq/gorm v1.9.12-0.20191204163205-9698cf23059b
+
 go 1.12
 
 require (
