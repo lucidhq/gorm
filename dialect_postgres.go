@@ -14,6 +14,7 @@ type postgres struct {
 
 func init() {
 	RegisterDialect("postgres", &postgres{})
+	RegisterDialect("pq-timeouts", &postgres{})
 	RegisterDialect("cloudsqlpostgres", &postgres{})
 }
 
